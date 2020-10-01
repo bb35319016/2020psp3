@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 
-//  市町村別データを入れる構造体
+//   市町村別データを入れる構造体
 typedef struct {
     int id; //  市町村ID
     char pref[13];  // 県名
