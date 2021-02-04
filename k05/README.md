@@ -1,5 +1,5 @@
 # 課題5 レポート
-学生番号　氏名
+35319016 河内元希
 
 
 ## 課題
@@ -98,12 +98,38 @@ int AdjacencyMatrix[MAX_STATIONS][MAX_STATIONS] = {
 
 ## ソースコードの説明
 
+109：各変数の宣言
+115~116：Stackを初期化し出発点をプッシュ
+120：Stackから取り出す
+121~132：行ったことがないところなら行ったことがることにして、そこから行ける場所をプッシュする
+135~141：順番に出力
 
-
+207：各変数の宣言
+209~212：visitedの中にUNVISITEDをいれる
+213：Stackを初期化
+214：出発点をプッシュ
+219~231：行ったことがなければ行ったことにする、そしてそこから行ける場所をプッシュする。
+234~241：順番に出力
 ## 出力結果
 
 ```
-
+(DepthFirst)0 is visited
+(DepthFirst)1 is visited
+(DepthFirst)2 is visited
+(DepthFirst)3 is visited
+(DepthFirst)4 is visited
+(DepthFirst)5 is visited
+(DepthFirst)6 is visited
+(DepthFirst)7 is visited
+(BreadthFirst)0 is visited
+(BreadthFirst)1 is visited
+(BreadthFirst)2 is visited
+(BreadthFirst)3 is visited
+(BreadthFirst)4 is visited
+(BreadthFirst)5 is visited
+(BreadthFirst)6 is visited
+(BreadthFirst)7 is visited
+Time Required: 7
 ```
 
 ## 修正履歴
