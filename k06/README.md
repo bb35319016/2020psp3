@@ -77,7 +77,7 @@ typedef struct tagMenu{
 ## 出力結果
 
 ```
-most calorie = 1501
+most calorie = 1796
 ```
 
 ## 修正履歴
